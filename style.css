@@ -1,0 +1,31 @@
+:root{
+    --color1:#ffffff;
+    --color2:#c0c0c0;
+    --color3:#167BF7;
+    --color4:#00030c;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--color4);
+    color: var(--color1) ;
+}
+
+
+.principal{
+    background-image: url("imagens/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+}
+.container___botao{
+    background-color: var(--color3);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--color1);
+    display: block;
+}
